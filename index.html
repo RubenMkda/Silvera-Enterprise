@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Vite + Bootstrap 4</title>
+</head>
+<body class="bg-dark">
+    <header class="position-fixed sticky-top w-100">
+        <nav class="bg-blue navbar navbar-expand-lg navbar-dark m-0 justify-content-start">
+            <section class="w-75 d-flex justify-content-around">
+                <a href="">
+                    <img src="/phone.svg" alt="">
+                    <span class="text-white font-weight-bold d-none d-sm-inline">123 456 789</span>
+                </a>
+                <a href="" class="mr-md-5">
+                    <img src="/email.svg" alt="">
+                    <span class="text-white font-weight-bold d-none d-sm-inline">Example@Example.com</span>
+                </a>
+            </section>
+                <ul class="navbar-nav ms-auto flex-row">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                          <img src="/facebook.svg" alt="">
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                          <img src="/instagram.svg" alt="">
+                          
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                          <img src="/facebook.svg" alt="" >
+                      </a>
+                    </li>
+                  </ul>
+                
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark px-5 m-0">
+            <img src="src/LOGO.png" alt="" width="150" class="">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse nav-font-size" id="navbarNav">
+                <ul class="navbar-nav gap ml-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Courses</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Team</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+        </nav>
+       
+    </header>
+    <main>
+        <section class="hero">
+            <video autoplay muted loop>
+                <source src="src/hero-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="overlay"></div>
+            <main>
+                <section class="content d-flex w-100">
+                    <div>
+                        <h1>Welcome a the University</h1>
+                        <span class="font-weight-bold d-block text-responsive">We are an Online</span>
+                        <span class="font-weight-bold d-block">platform to make learning</span>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+
+                    <div class="bg-white rounded-lg container w-auto">
+                        <h2 class="text-center mb-4 text-dark py-2">Register Now!</h2>
+                        <form class="pb-3">
+                            <div class="form-group">
+                                <input type="text" class="form-control rounded-pill" id="nombre" placeholder="Name">
+                            </div>
+                            <div class="form-group d-flex">
+                                <input type="email" class="form-control w-50 rounded-pill" id="email" placeholder="Email">
+                                <input type="phone" class="form-control w-50 rounded-pill" id="phone" placeholder="Phone">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" id="descripcion" rows="4" placeholder="Escribe una descripción"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary rounded-pill">Registrarse</button>
+                        </form>
+                    </div>
+                </section>
+            </main>
+        </section>
+    </main>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
