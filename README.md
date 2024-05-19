@@ -22,7 +22,7 @@ Aquí estaré documentando el proceso de creación de este proyecto, primero mar
 
 ## Beneficios
 
-- [ ] En vista Móvil colocar los círculos ordenados en grupos de dos por fila.
+- [ x ] En vista Móvil colocar los círculos ordenados en grupos de dos por fila.
 
 ## Study Carreers
 

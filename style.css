@@ -14,9 +14,9 @@ h1{
   border-bottom: 4px solid rgb(253, 182, 66);
 }
 .custom-btn{
-  font-size: 1.5em!important;
   border: 1px solid white!important;
   transition: transform 0.5s, font-size 0.5s!important;
+  font-weight: bold!important;
 }
 .custom-btn:hover{
   transform: scale(1.15);
@@ -105,13 +105,40 @@ nav{
   font-size: 1.1em;
 }
 
+.benefits{
+  background: rgba(2, 85, 125, 0.6);
+}
+
+.benefits span{
+  font-size: 2em;
+}
+
+.img-benefits{
+  top: 0!important;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  padding: 25px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+
 @media (min-width: 991px) and (max-width: 1180px){
   .hero .content {
     position: absolute;
   top: 25%;
   left: 5%;
   color: white;
-  font-size: 2.4em;
+  font-size: 2.4em!important;
   z-index: 1;
   }
 
