@@ -7,6 +7,7 @@
     <title>Vite + Bootstrap 4</title>
 </head>
 <body class="bg-dark">
+
     <header class="position-fixed sticky-top w-100">
         <nav class="bg-blue navbar navbar-expand-lg navbar-dark m-0 justify-content-start">
             <section class="w-75 d-flex justify-content-around">
@@ -40,11 +41,11 @@
                 
         </nav>
         <nav class="navbar navbar-expand-lg navbar-dark px-5 m-0">
-            <img src="src/LOGO.png" alt="" width="150" class="">
+            <img src="src/LOGO.png" alt="" width="150" class="ml-5">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse nav-font-size" id="navbarNav">
+              <div class="collapse navbar-collapse nav-font-size mr-5" id="navbarNav">
                 <ul class="navbar-nav gap ml-auto">
                   <li class="nav-item active">
                     <a class="nav-link" href="#">About us</a>
@@ -63,6 +64,7 @@
         </nav>
        
     </header>
+
     <main>
         <section class="hero">
             <video autoplay muted loop>
@@ -71,28 +73,33 @@
             </video>
             <div class="overlay"></div>
             <main>
-                <section class="content d-flex w-100">
-                    <div>
-                        <h1>Welcome a the University</h1>
-                        <span class="font-weight-bold d-block text-responsive">We are an Online</span>
-                        <span class="font-weight-bold d-block">platform to make learning</span>
-                        <a href="#" class="btn btn-primary">Learn More</a>
+                <section class="content d-flex w-100 flex-column flex-lg-row gap w-75">
+                    <div class="text-center text-lg-left py-4 mt-4 flex-shrink-1">
+                        <header>
+                            <h1>Welcome a the University</h1>
+                            <hr class="bg-yellow m-auto m-lg-0 ml-lg-3" style="height: 5px;width: 250px;">
+                        </header>
+                        <main >
+                            <span class="font-weight-bold d-block ml-lg-3">We are an Online</span>
+                            <span class="font-weight-bold d-block ml-lg-3">platform to make learning</span>
+                            <button type="submit" class="btn btn-primary bg-yellow rounded-pill px-5 py-2 custom-btn">Get Now</button>
+                        </main>
                     </div>
 
-                    <div class="bg-white rounded-lg container w-auto">
-                        <h2 class="text-center mb-4 text-dark py-2">Register Now!</h2>
-                        <form class="pb-3">
+                    <div class="bg-white rounded-lg container w-auto p-0">
+                            <h2 class="text-center text-white bg-blue rounded-top py-3 mb-0 border-yellow">Register Now!</h2>
+                        <form class="p-3 py-4">
                             <div class="form-group">
-                                <input type="text" class="form-control rounded-pill" id="nombre" placeholder="Name">
+                                <input type="text" class="form-control rounded-pill bg-secondary" id="nombre" placeholder="Name">
                             </div>
                             <div class="form-group d-flex">
-                                <input type="email" class="form-control w-50 rounded-pill" id="email" placeholder="Email">
-                                <input type="phone" class="form-control w-50 rounded-pill" id="phone" placeholder="Phone">
+                                <input type="email" class="form-control w-50 rounded-pill bg-secondary" id="email" placeholder="Email">
+                                <input type="phone" class="form-control w-50 rounded-pill bg-secondary" id="phone" placeholder="Phone">
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control" id="descripcion" rows="4" placeholder="Escribe una descripción"></textarea>
+                                <textarea class="form-control bg-secondary rounded-lg" id="descripcion" rows="4" placeholder="Message"></textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary rounded-pill">Registrarse</button>
+                            <button type="submit" class="btn btn-primary bg-yellow rounded-pill px-5 py-2 custom-btn">Send</button>
                         </form>
                     </div>
                 </section>

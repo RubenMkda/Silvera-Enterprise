@@ -1,14 +1,29 @@
 h1{
   font-size: 2.2rem;
 }
-
+button{
+  border: 1px solid white!important;
+}
 .bg-blue {
   background-color: rgb(2, 85, 125);
 }
+.bg-yellow{
+  background-color: rgb(253, 182, 66)!important;
+}
+.border-yellow{
+  border-bottom: 4px solid rgb(253, 182, 66);
+}
+.custom-btn{
+  font-size: 0.3em!important;
+  transition: transform 0.5s, font-size 0.5s!important;
+}
+.custom-btn:hover{
+  transform: scale(1.15);
+}
+
 nav{
   width: 100%;
 }
-
 
 .nav-font-size{
   font-size: 2em;
@@ -46,10 +61,50 @@ nav{
   top: 25%;
   left: 5%;
   color: white;
-  font-size: 2rem;
+  font-size: 2.9em;
   z-index: 1;
+}
+
+.hero .container{
+  position: absolute;
+  right: 10%;
 }
 
 .gap{
   gap:20px;
+}
+
+.form-control::placeholder{
+  color: black!important;
+}
+
+@media (min-width: 991px) and (max-width: 1180px){
+  .hero .content {
+    position: absolute;
+  top: 25%;
+  left: 5%;
+  color: white;
+  font-size: 2.4em;
+  z-index: 1;
+  }
+
+  .hero .container{
+    width: 380px!important;
+  }
+}
+
+@media (max-width: 991px){
+  .hero{
+    height: calc(126vh);
+
+  }
+  .hero .content {
+    top: 15%;
+    left: 0;
+    font-size: 3em;
+  }
+  .hero .container{
+    position: relative;
+    right: 0;
+  }
 }
