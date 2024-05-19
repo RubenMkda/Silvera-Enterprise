@@ -10,11 +10,11 @@ Aquí estaré documentando el proceso de creación de este proyecto, primero mar
 
 ## Hero - Checklist
 
-- [ ] Debe tener como background un video, la imagen actual solo es referencial
+- [ x ] Debe tener como background un video, la imagen actual solo es referencial
 
 ## The Most Popular  
 
-- [ ] Debe estar organizado utilizando el sistema grid de bootstrap.
+- [ x ] Debe estar organizado utilizando el sistema grid de bootstrap.
 
 ## About Us  
 

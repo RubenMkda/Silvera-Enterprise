@@ -1,9 +1,6 @@
 h1{
   font-size: 2.2rem;
 }
-button{
-  border: 1px solid white!important;
-}
 .bg-blue {
   background-color: rgb(2, 85, 125);
 }
@@ -14,7 +11,8 @@ button{
   border-bottom: 4px solid rgb(253, 182, 66);
 }
 .custom-btn{
-  font-size: 0.3em!important;
+  font-size: 1em!important;
+  border: 1px solid white!important;
   transition: transform 0.5s, font-size 0.5s!important;
 }
 .custom-btn:hover{
@@ -76,6 +74,10 @@ nav{
 
 .form-control::placeholder{
   color: black!important;
+}
+
+.card{
+  border-radius: 1rem!important;
 }
 
 @media (min-width: 991px) and (max-width: 1180px){
