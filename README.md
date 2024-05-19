@@ -18,7 +18,7 @@ Aquí estaré documentando el proceso de creación de este proyecto, primero mar
 
 ## About Us  
 
-- [ ] En Vista Móvil la organización del contenido debe ser primero el Texto, luego la Imagen y posteriormente el botón.
+- [ x ] En Vista Móvil la organización del contenido debe ser primero el Texto, luego la Imagen y posteriormente el botón.
 
 ## Beneficios
 
