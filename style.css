@@ -7,11 +7,14 @@ h1{
 .bg-yellow{
   background-color: rgb(253, 182, 66)!important;
 }
+.bg-hr{
+  background-color: rgb(255, 212, 158);
+}
 .border-yellow{
   border-bottom: 4px solid rgb(253, 182, 66);
 }
 .custom-btn{
-  font-size: 1em!important;
+  font-size: 1.5em!important;
   border: 1px solid white!important;
   transition: transform 0.5s, font-size 0.5s!important;
 }
@@ -78,6 +81,28 @@ nav{
 
 .card{
   border-radius: 1rem!important;
+}
+
+.img-about-us{
+  border: 12px solid rgb(187, 210, 220);
+  border-radius: 25q;
+}
+
+.img-about-us::after{
+  content: ""; 
+  display: block;
+  position: absolute;
+  top: 7%;
+  left: 0;
+  width: 100%;
+  height: 90%;
+  border: 12px solid rgb(253, 182, 66, .3);
+  border-radius: 20px;
+  transform: rotate(6deg);
+}
+
+.custom-text{
+  font-size: 1.8em;
 }
 
 @media (min-width: 991px) and (max-width: 1180px){
