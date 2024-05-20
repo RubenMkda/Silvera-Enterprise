@@ -1,4 +1,4 @@
-  $('.carousel .carousel-item').each(function(){
+  $('.carousel-team .carousel-item').each(function(){
       var minPerSlide = 3;
       var next = $(this).next();
       if (!next.length) {

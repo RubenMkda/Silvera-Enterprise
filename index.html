@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Vite + Bootstrap 4</title>
 </head>
-<body class="bg-dark">
+<body class="bg-white">
 
     <header class="position-fixed sticky-top w-100">
         <nav class="bg-blue navbar navbar-expand-lg navbar-dark m-0 justify-content-start">
@@ -335,8 +335,8 @@
             </header>
             <div class="container text-center my-3">
                 <div class="row mx-auto my-auto">
-                    <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
-                        <div class="carousel-inner w-100" role="listbox">
+                    <div id="recipeCarousel" class="carousel carousel-team slide w-100" data-ride="carousel">
+                        <div class="carousel-inner team-inner w-100" role="listbox">
                             <div class="carousel-item active">
                                 <div class="col-lg-3">
                                     <div class="container mt-5">
@@ -371,7 +371,6 @@
                                               <h5 class="card-title">Jhon Smith</h5>
                                               <p class="card-text">Math Teacher</p>
                                               <a href="#" class="btn btn-primary bg-yellow rounded-pill px-5 py-2 custom-btn w-100">Explore</a>
-  
                                             </div>
                                           </div>
                                     </div>
@@ -511,11 +510,93 @@
             </div>
         </section>
 
-        <section>
-            
+        <section class="p-5 container position-relative bg-custom">
+            <div class="content d-flex flex-column flex-lg-row">
+
+                <section class="w-100 text-center text-white">
+                    <header>
+                        <h2 style="font-size: .6em;">VIEW TESTIMONIALS</h2>
+                    </header>
+                    <p style="font-size: 2.5em;">FOR US IT IS VERY IMPORTANT TO KNOW THE OPINIONS OF OUR CLIENTS</p>
+                </section>
+
+                <section class="container" style="max-width: 350px;">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="src/person_1.jpg" class="d-block w-100" alt="...">
+                                <div class="play-button-wrapper" data-toggle="modal" data-target="#videoModal">
+                                    <div class="play-button"></div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="src/person_2.jpg" class="d-block w-100" alt="...">
+                                <div class="play-button-wrapper" data-toggle="modal" data-target="#videoModal">
+                                    <div class="play-button"></div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="src/person_3.jpg" class="d-block w-100" alt="...">
+                                <div class="play-button-wrapper" data-toggle="modal" data-target="#videoModal">
+                                    <div class="play-button"></div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="src/person_4.jpg" class="d-block w-100" alt="...">
+                                <div class="play-button-wrapper" data-toggle="modal" data-target="#videoModal">
+                                    <div class="play-button"></div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="src/person_5.jpg" class="d-block w-100" alt="...">
+                                <div class="play-button-wrapper" data-toggle="modal" data-target="#videoModal">
+                                    <div class="play-button"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </button>
+                    </div>
+                </section>
+            </div>
         </section>
 
     </main>
+
+    <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="videoModalLabel">Video</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Video local -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <video class="embed-responsive-item" autoplay>
+                            <source src="src/review-1.mp4" type="video/mp4">
+                            Tu navegador no soporta la etiqueta de video.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script type="module" src="main.js"></script>
     <script src="carousel.js"></script>
