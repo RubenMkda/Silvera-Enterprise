@@ -26,12 +26,12 @@ Aquí estaré documentando el proceso de creación de este proyecto, primero mar
 
 ## Study Carreers
 
-- [ ] Los elementos solo deben de ser organizados con el sistema grid de Bootstrap.
-- [ ] Al hacer hover la imagen debe tener un efecto zoom, dentro del cuadro contentivo.
-- [ ] En vista móvil todas las tarjetas deben de tener el mismo tamaño.
+- [ x ] Los elementos solo deben de ser organizados con el sistema grid de Bootstrap.
+- [ x ] Al hacer hover la imagen debe tener un efecto zoom, dentro del cuadro contentivo.
+- [ x ] En vista móvil todas las tarjetas deben de tener el mismo tamaño.
 
 ## Team 
-- [ ] Realizar un carrusel con los miembros del team, que muestre 4 iconos en vista PC como en el mockup y en vista móvil se muestre solo 1 item.
+- [  ] Realizar un carrusel con los miembros del team, que muestre 4 iconos en vista PC como en el mockup y en vista móvil se muestre solo 1 item.
 
 ## Reviews
 - [ ] Debe tener un carrusel de videos que consiste en tener una vista previa a través de una imagen y al darle clic al icono de play se reproduzca un video en el recuadro que contiene la imagen o en su defecto abrir una ventana modal donde se reproduzca el video.
