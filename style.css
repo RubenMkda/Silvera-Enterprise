@@ -22,7 +22,14 @@ h1{
   transition: transform 0.5s, font-size 0.5s!important;
   font-weight: bold!important;
 }
-.custom-btn:hover{
+.custom-btn2{
+  border: 1px solid rgb(253, 182, 66)!important;
+  background-color: transparent!important;
+  transition: transform 0.5s, font-size 0.5s!important;
+  color: rgb(253, 182, 66)!important;
+  font-size: 1.9em!important;
+}
+.custom-btn:hover, .custom-btn2:hover{
   transform: scale(1.15);
 }
 .navbar{
@@ -194,6 +201,14 @@ nav{
   border-radius: 100%;
   width: 125px;
   transform: translateX(50%);
+}
+
+.card-body .custom-btn2{
+  font-size: 1em!important;
+  width: 50%;
+}
+#team .custom-btn{
+  font-size: 1.9em!important;
 }
 
 .bg-custom {
