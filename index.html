@@ -8,8 +8,8 @@
 </head>
 <body class="bg-white">
 
-    <header class="position-fixed sticky-top w-100">
-        <nav class="bg-blue navbar navbar-expand-lg navbar-dark m-0 justify-content-start">
+    <header class="position-fixed sticky-top w-100" >
+        <nav class="bg-blue navbar navbar-expand-lg navbar-dark m-0 justify-content-start" id="top-header">
             <section class="w-75 d-flex justify-content-around">
                 <a href="">
                     <img src="/phone.svg" alt="">
@@ -40,24 +40,24 @@
                   </ul>
                 
         </nav>
-        <nav class="navbar navbar-expand-lg navbar-dark px-5 m-0">
+        <nav class="navbar navbar-expand-lg navbar-dark py-3 m-0" id="header">
             <img src="src/LOGO.png" alt="" width="150" class="ml-5">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler mr-5" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse nav-font-size mr-5" id="navbarNav">
-                <ul class="navbar-nav gap ml-auto">
+              <div class="collapse navbar-collapse nav-font-size" id="navbarNav">
+                <ul class="navbar-nav gap bg-blue">
                   <li class="nav-item active">
-                    <a class="nav-link" href="#">About us</a>
+                    <a class="nav-link px-5 pt-5" href="#about-us">About us</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Courses</a>
+                    <a class="nav-link px-5 pt-5" href="#courses">Courses</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Team</a>
+                    <a class="nav-link px-5 pt-5" href="#team">Team</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
+                  <li class="nav-item px-5 py-5">
+                    <a class="nav-link" href="#contact-us">Contact Us</a>
                   </li>
                 </ul>
               </div>
@@ -106,7 +106,7 @@
             </main>
         </section>
 
-        <section class="bg-white px-5 py-5">
+        <section class="bg-white px-5 py-5" id="mostpopular">
             <header>
                 <section class="d-flex align-items-center gap">
                     <div style="width: 20px;height: 20px;border-radius: 100%" class="mb-1 bg-yellow"></div>
@@ -176,7 +176,7 @@
             </main>
         </section>
 
-        <section class="px-5 py-5 bg-blue text-white">
+        <section class="px-5 py-5 bg-blue text-white" id="about-us">
                     <header class="d-flex align-items-center gap">
                         <div style="width: 20px;height: 20px;border-radius: 100%" class="mb-1 bg-yellow"></div>
                         <h2 class="ml-4">About Us</h2>
@@ -195,32 +195,32 @@
                     </main>
         </section>
 
-        <section class="position-relative" style="height: 500px;">
-            <div class="benefits w-100 py-4" style="height: 500px;">
+        <section class="position-relative" style="min-height: 500px;">
+            <div class="benefits w-100 py-4" style="min-height: 500px;">
                 <div class="container">
-                    <div class="row align-items-center" style="height: 500px;">
-                      <div class="col-6 col-lg-3">
+                    <div class="row align-items-center" style="min-height: 500px;">
+                      <div class="col-6 col-lg-3 my-5">
                         <div class="circle">
                             <img src="src/ICONO 1.png" class="img-fluid" alt="">
                         </div>
                         <span class="text-white d-block text-center">Excellent</span>
                         <span class="text-white d-block text-center">content</span>
                       </div>
-                      <div class="col-6 col-lg-3">
+                      <div class="col-6 col-lg-3 my-5">
                         <div class="circle">
                             <img src="src/ICONO 2.png" class="img-fluid" alt="">
                         </div>
                         <span class="text-white d-block text-center">Experts</span>
                         <span class="text-white d-block text-center">Instructors</span>
                       </div>
-                      <div class="col-6 col-lg-3">
+                      <div class="col-6 col-lg-3 my-5">
                         <div class="circle">
                             <img src="src/ICONO 3.png" class="img-fluid" alt="">
                         </div>
                         <span class="text-white d-block text-center">The Best</span>
                         <span class="text-white d-block text-center">Profesionals</span>
                       </div>
-                      <div class="col-6 col-lg-3">
+                      <div class="col-6 col-lg-3 my-5 ">
                         <div class="circle">
                             <img src="src/ICONO 4.png" class="img-fluid" alt="">
                         </div>
@@ -235,7 +235,7 @@
 
         </section>
 
-        <section class="bg-white p-5">
+        <section class="bg-white p-5" id="courses">
 
             <header class="mb-5 text-dark">
                 <section class="d-flex align-items-center gap">
@@ -322,7 +322,7 @@
             
         </section>
 
-        <section class="p-5 bg-white">
+        <section class="p-5 bg-white" id="team">
             <header class="text-dark">
                 <section class="d-flex align-items-center gap">
                     <div style="width: 20px;height: 20px;border-radius: 100%" class="mb-1 bg-yellow"></div>
@@ -510,7 +510,7 @@
             </div>
         </section>
 
-        <section class="p-5 container position-relative bg-custom">
+        <section class="p-5 container position-relative bg-custom" id="contact-us">
             <div class="content d-flex flex-column flex-lg-row">
 
                 <section class="w-100 text-center text-white">
@@ -599,7 +599,7 @@
     </div>
 
    
-    <footer class="bg-blue text-white pt-5 pb-4">
+    <footer class="bg-blue text-white pt-5 pb-4" id="contact-us">
         <div class="mx-5">
             <div class="row">
                 <div class="col-md-6 col-lg-3 col-xl-3 mx-auto mt-3">
@@ -609,9 +609,9 @@
                 <div class="col-md-6 col-lg-2 col-xl-2 mx-auto mt-3">
                     <h5 class="text-uppercase mb-4 font-weight-bold">Quick Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#" class="text-white">About us</a></li>
-                        <li><a href="#" class="text-white">Courses</a></li>
-                        <li><a href="#" class="text-white">Team</a></li>
+                        <li><a href="#about-us" class="text-white">About us</a></li>
+                        <li><a href="#courses" class="text-white">Courses</a></li>
+                        <li><a href="#team" class="text-white">Team</a></li>
                         <li><a href="#" class="text-white">Contact Us</a></li>
                     </ul>
                 </div>

@@ -1,3 +1,7 @@
+*{
+  scroll-behavior: smooth;
+}
+
 h1{
   font-size: 2.2rem;
 }
@@ -21,10 +25,35 @@ h1{
 .custom-btn:hover{
   transform: scale(1.15);
 }
+.navbar{
+  padding: 0!important;
+}
 
+nav{
+  transition: background-color 0.3s ease;
+}
+
+.scrolled {
+  background-color: rgb(2, 85, 125); 
+  transition: background-color 0.3s ease;
+}
+.scrolled-top {
+  background-color: white;
+  transition: background-color 0.3s ease;
+}
+
+.scrolled-top a span, .scrolled-top a img{
+  color: black!important;
+  padding: 5px;
+  border-radius: 50%;
+}
+.scrolled-top a img{
+  background-color: black;
+}
 nav{
   width: 100%;
 }
+
 
 .nav-font-size{
   font-size: 2em;
@@ -261,6 +290,7 @@ nav{
   .bg-custom{
     background-image: url("src/IMAGE\ TESTIMONIALS.jpg");
   }
+
 }
 
 
@@ -272,6 +302,12 @@ nav{
 
 @media (min-width: 991px) {
     
+  nav ul{
+    width: 100%;
+    justify-content: end;
+    background-color: transparent!important;
+  }
+
   .team-inner .carousel-item-right.active,
   .team-inner .carousel-item-next {
     transform: translateX(25%);

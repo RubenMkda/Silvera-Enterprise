@@ -4,9 +4,9 @@ Aquí estaré documentando el proceso de creación de este proyecto, primero mar
 
 ## Header - Checklist
 
-- [ ] Debe ser fijo, es decir debe ser visible a lo largo de toda la página, por lo tanto, incluye el top header
-- [ ] Al inicio será de fondo transparente, sin embargo, al pasar a la siguiente sección, debe de tener el background azul y las opciones de menú color blanco. Por su parte, el top header tendrá un background blanco con el color de los textos en color azul.
-- [ ] Las opciones del menú deben de tener un efecto hover y al darle click deben ira a la sección correspondiente. 
+- [ x ] Debe ser fijo, es decir debe ser visible a lo largo de toda la página, por lo tanto, incluye el top header
+- [ x ] Al inicio será de fondo transparente, sin embargo, al pasar a la siguiente sección, debe de tener el background azul y las opciones de menú color blanco. Por su parte, el top header tendrá un background blanco con el color de los textos en color azul.
+- [ x ] Las opciones del menú deben de tener un efecto hover y al darle click deben ira a la sección correspondiente. 
 
 ## Hero - Checklist
 
