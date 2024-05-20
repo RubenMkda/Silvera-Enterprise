@@ -2,6 +2,19 @@
 
 Aquí estaré documentando el proceso de creación de este proyecto, primero marcare una checklist para el trabajo. 
 
+Especificaciones Generales
+
+- [ x ] La pagina debe de verse bien tanto en vista PC como en Vista móvil, por lo tanto, la
+misma debe ser Responsive
+- [ x ] Los links de Redes Sociales deben ser clicleables y abrir en una nueva pestaña hacia su
+red correspondiente.
+- [ x ] Los links de información (teléfono, correo y dirección deben de ser clicleables), tanto el
+link de teléfono como de correo deben de abrir sus aplicaciones correspondientes,
+mientras que el link de dirección debe de abrir a una nueva pestaña en Google maps
+- [ x ] Utilizar para cada una de las secciones el sistema de grid de Boostrap
+- [ x ] En Vista Móvil los textos y elementos deben de estar centrados
+- [ x ] Agregar efecto hover a los botones
+
 ## Header - Checklist
 
 - [ x ] Debe ser fijo, es decir debe ser visible a lo largo de toda la página, por lo tanto, incluye el top header
