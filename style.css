@@ -151,12 +151,22 @@ nav{
 }
 
 .zoom-on-hover {
-  transition: transform 0.3s ease; /* Añade una transición suave */
+  transition: transform 0.3s ease; 
 }
 
 .card:hover .zoom-on-hover {
-  transform: scale(1.1); /* Escala la imagen al 110% */
+  transform: scale(1.1); 
 }
+
+.team-image {
+  top: 50%;
+  right: 50%;
+  border: 5px solid white;
+  border-radius: 100%;
+  width: 125px;
+  transform: translateX(50%);
+}
+
 
 @media (min-width: 991px) and (max-width: 1180px){
   .hero .content {
@@ -191,5 +201,37 @@ nav{
   .card-img-40,.card-img-20{
     aspect-ratio:2/1;
   }
+}
+
+@media (max-width: 991px) {
+  .carousel-inner .carousel-item > div {
+      display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+      display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+@media (min-width: 768px) {
+    
+  .carousel-inner .carousel-item-right.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+  }
   
+  .carousel-inner .carousel-item-left.active, 
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+  }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+transform: translateX(0);
 }
